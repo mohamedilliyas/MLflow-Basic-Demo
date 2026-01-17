@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLflow_basic_demo/mlruns/0/f1345d4f83d345949a69a7559a70cd59/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1345d4f83d345949a69a7559a70cd59
+run_name: abrasive-steed-554
+run_uuid: f1345d4f83d345949a69a7559a70cd59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768640681289
+status: 1
+tags: []
+user_id: Laptop
