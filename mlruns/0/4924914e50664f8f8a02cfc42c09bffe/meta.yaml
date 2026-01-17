@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLflow_basic_demo/mlruns/0/4924914e50664f8f8a02cfc42c09bffe/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4924914e50664f8f8a02cfc42c09bffe
+run_name: awesome-asp-56
+run_uuid: 4924914e50664f8f8a02cfc42c09bffe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768646236932
+status: 1
+tags: []
+user_id: Laptop

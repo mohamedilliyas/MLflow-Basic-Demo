@@ -52,7 +52,7 @@ if __name__ == "__main__":
     test_x = test.drop(["quality"], axis=1)
     train_y = train[["quality"]]
     test_y = test[["quality"]]
-    
+
     # Parameters of the ElasticNet model
     alpha = float(sys.argv[1]) if len(sys.argv) > 1 else 0.5
     l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.5
@@ -78,13 +78,13 @@ if __name__ == "__main__":
 
         
         # # For remote server only (Dagshub)
-        # remote_server_uri = "https://dagshub.com/entbappy/MLflow-Basic-Demo.mlflow"
-        # mlflow.set_tracking_uri(remote_server_uri)
+        remote_server_uri = "https://dagshub.com/mohamedilliyas/MLflow-Basic-Demo.mlflow"
+        mlflow.set_tracking_uri(remote_server_uri)
 
 
         # For remote server only (AWS)
-        remote_server_uri = "http://ec2-54-147-36-34.compute-1.amazonaws.com:5000/"
-        mlflow.set_tracking_uri(remote_server_uri)
+        #remote_server_uri = "http://ec2-54-147-36-34.compute-1.amazonaws.com:5000/"
+        #mlflow.set_tracking_uri(remote_server_uri)
 
 
 
